@@ -1,7 +1,7 @@
 var _ = require('lodash');
-var Vue = require('vue');
+import Vue from 'vue'
 
-module.exports = class Errors {
+export default class Errors {
 
     constructor(errors) {
         this.set(errors);
